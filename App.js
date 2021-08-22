@@ -11,7 +11,7 @@ export default function App() {
 
     if (imc < 18, 6) {
       alert('Você está abaixo do peso! ' + imc.toFixed(2));
-    } else if (imc >= 18, 6 && imc < 24.9) {
+    } else if (imc >= 18.6 && imc < 24.9) {
       alert('Você está com Peso ideal! ' + imc.toFixed(2));
     } else if (imc >= 24.9 && imc < 34.9) {
       alert('Você está levemente acima do peso! ' + imc.toFixed(2));
@@ -40,7 +40,7 @@ export default function App() {
         <Text style={styles.buttonText}>Calcular</Text>
       </TouchableOpacity>
 
-      <Text>Desenvolvido por @anndrefranklin</Text>
+      <Text style={styles.rodape}>Developer by André Franklin</Text>
 
     </View>
   );
@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontSize: 20,
   },
+
   botao: {
     justifyContent: 'center',
     alignItems: 'center',
@@ -75,6 +76,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 10,
   },
+
   buttonText: {
     color: '#FFF',
     fontSize: 25,

@@ -1,0 +1,1 @@
+Projeto de desenvolvimento de um Calculadora de IMC usando React Native.
